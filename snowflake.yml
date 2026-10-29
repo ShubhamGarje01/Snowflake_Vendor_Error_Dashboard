@@ -1,0 +1,30 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    meta:
+      use_mixins:
+        - streamlit_shared
+    identifier:
+      name: FXV_31LJZUQA_MJV
+      database: PRACTICE_DB
+      schema: ERROR_REPORTS
+    title: Vendor_Error_Dashboard
+  Target 1:
+    type: streamlit
+    meta:
+      use_mixins:
+        - streamlit_shared
+      role: ACCOUNTADMIN
+    identifier:
+      name: ''
+    title: Untitled
+mixins:
+  streamlit_shared:
+    artifacts:
+      - pyproject.toml
+      - Vend_Error_Dash_streamlit_app.py
+      - .streamlit/config.toml
+    query_warehouse: COMPUTE_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    main_file: Vend_Error_Dash_streamlit_app.py
