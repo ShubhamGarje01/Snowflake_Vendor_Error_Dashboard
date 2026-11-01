@@ -34,13 +34,23 @@ It helps the **Data Governance and Semarchy MDM teams** identify invalid vendor 
 ### 📊 Dashboard Preview
 
 - **Dashboard Preview - 01**
+ 
 ![Snowflake_Vendor_Error_Dashboard](screenshots/Vendor_Error_Dashboard_01.png)
 
+################################################################################################
+
 - **Dashboard Preview - 02**
+
 ![Snowflake_Vendor_Error_Dashboard](screenshots/Vendor_Error_Dashboard_02.png)
 
+################################################################################################
+
 - **Dashboard Preview - 03**
+
 ![Snowflake_Vendor_Error_Dashboard](screenshots/Vendor_Error_Dashboard_03.png)
 
+################################################################################################
+
 - **Dashboard Preview - 04**
+
 ![Snowflake_Vendor_Error_Dashboard](screenshots/Vendor_Error_Dashboard_04.png)
